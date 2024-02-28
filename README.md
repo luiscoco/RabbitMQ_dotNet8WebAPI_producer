@@ -4,18 +4,6 @@ See also this link:
 
 RabbitMQ and Messaging Concepts (Udemy training): https://www.udemy.com/course/rabbitmq-and-messaging-concepts
 
-**Headers**: https://github.com/luiscoco/RabbitMQ_HeadersDemo
-
-**Default**: https://github.com/luiscoco/RabbitMQ_DefaultDemo
-
-**ExchangeToExchange**: https://github.com/luiscoco/RabbitMQ_ExchangeToExchangeDemo
-
-**AlternateExchange**: https://github.com/luiscoco/RabbitMQ_AlternateDemo
-
-**PushPull**: https://github.com/luiscoco/RabbitMQ_PushPullDemo
-
-**PriorityQueues**: https://github.com/luiscoco/RabbitMQ_PriorityQueues
-
 **RequestReply-QueueName**: https://github.com/luiscoco/RabbitMQ_RequestReply-QueueName-Demo
 
 **RequestReply**: https://github.com/luiscoco/RabbitMQ_RequestReplyDemo
@@ -320,29 +308,37 @@ Topic exchange will perform a wildcard match between the routing key and the rou
 
 ![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/904d6e7e-0934-42d3-8e74-9abe35edd43f)
 
-## 9.4. 
+## 9.4. Headers Exchange
+
+https://github.com/luiscoco/RabbitMQ_HeadersDemo
+
+## 9.5. Default Exchange
+
+https://github.com/luiscoco/RabbitMQ_DefaultDemo
+
+## 9.6. Exchange to Exchange
+
+https://github.com/luiscoco/RabbitMQ_ExchangeToExchangeDemo
+
+## 9.7. Alternate Exchange
+
+https://github.com/luiscoco/RabbitMQ_AlternateDemo
+
+## 9.8. Push vs Pull
+
+https://github.com/luiscoco/RabbitMQ_PushPullDemo
+
+## 9.9. Work Queues
 
 
-## 9.5. 
+## 9.10. Publish - Subscribe
 
 
-## 9.6. 
+## 9.11. Request - Reply
 
 
-## 9.7. 
+## 9.12. Priority queues
 
+https://github.com/luiscoco/RabbitMQ_PriorityQueues
 
-## 9.8. 
-
-
-## 9.9. 
-
-
-## 9.10. 
-
-
-## 9.11. 
-
-
-## 9.12. 
-
+## 9.13. 
