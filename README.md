@@ -18,7 +18,7 @@ The **password** is also **guest**
 
 ![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/8f3e7ac0-fb1b-4f5f-9229-189d8d611fbd)
 
-## 2. Create .NET Web API in VSCode
+## 2. Create .NET Web API in Visual Studio 2022 or VSCode
 
 To create the project, you can use the **dotnet new** command to create a new **Web API project**
 
