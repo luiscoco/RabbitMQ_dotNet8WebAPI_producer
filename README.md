@@ -30,6 +30,10 @@ dotnet new webapi -o RabbitMQWebAPI
 
 First, you will need to install the **RabbitMQ.Client** NuGet package in your project
 
+```
+dotnet add package RabbitMQ.Client
+```
+
 ![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/d1754305-a583-4519-9ec3-a55c423d478f)
 
 ## 4. Project structure
