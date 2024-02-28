@@ -4,9 +4,6 @@ See also this link:
 
 RabbitMQ and Messaging Concepts (Udemy training): https://www.udemy.com/course/rabbitmq-and-messaging-concepts
 
-
-**Topic**: https://github.com/luiscoco/RabbitMQ_TopicDemo
-
 **Headers**: https://github.com/luiscoco/RabbitMQ_HeadersDemo
 
 **Default**: https://github.com/luiscoco/RabbitMQ_DefaultDemo
@@ -309,7 +306,7 @@ Like a postman that photocopies all the mails and puts one copy into each mailbo
 
 https://github.com/luiscoco/RabbitMQ_DirectDemo
 
-Routes messages to the queues based on the "routing key" specified in binding definition.
+Routes messages to the queues based on the "**routing key**" specified in binding definition.
 
 In order to send a message to a queue, routing key on the message and the routing key of the bound queue must be exactly the same.
 
@@ -317,6 +314,11 @@ In order to send a message to a queue, routing key on the message and the routin
 
 ## 9.3. Topic Exchange
 
+https://github.com/luiscoco/RabbitMQ_TopicDemo
+
+Topic exchange will perform a wildcard match between the routing key and the routing pattern specified in the binding to publish a message to queue
+
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/904d6e7e-0934-42d3-8e74-9abe35edd43f)
 
 ## 9.4. 
 
