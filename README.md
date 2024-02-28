@@ -378,6 +378,21 @@ It's like a broadcast; every queue gets a copy of the message
 
 https://github.com/luiscoco/RabbitMQ_PushPullDemo
 
+**Push** 
+
+Consumer application subscribes to the queue and waits for messages
+
+If there is already a message on the queue, or when a new message arrives, it is automatically sent(pushed) to the consumer application
+
+This is the suggested way of getting messages from a queue
+
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/25e71385-ff94-46b9-a2d5-05cdb5e6f972)
+
+**Pull** 
+
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/32f178e0-c687-46ce-a018-959ab4eb30a6)
+
+
 ## 9.9. Work Queues
 
 
