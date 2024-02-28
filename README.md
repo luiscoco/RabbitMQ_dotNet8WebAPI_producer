@@ -6,19 +6,23 @@ RabbitMQ and Messaging Concepts (Udemy training): https://www.udemy.com/course/r
 
 See also this github repos:
 
-https://github.com/luiscoco/RabbitMQ_FanoutDemo
+**Fanout**: https://github.com/luiscoco/RabbitMQ_FanoutDemo
 
-https://github.com/luiscoco/RabbitMQ_DirectDemo
+**Direct**: https://github.com/luiscoco/RabbitMQ_DirectDemo
 
-https://github.com/luiscoco/RabbitMQ_TopicDemo
+**Topic**: https://github.com/luiscoco/RabbitMQ_TopicDemo
 
-https://github.com/luiscoco/RabbitMQ_HeadersDemo
+**Headers**: https://github.com/luiscoco/RabbitMQ_HeadersDemo
 
-https://github.com/luiscoco/RabbitMQ_DefaultDemo
+**Default**: https://github.com/luiscoco/RabbitMQ_DefaultDemo
 
-https://github.com/luiscoco/RabbitMQ_ExchangeToExchangeDemo
+**ExchangeToExchange**: https://github.com/luiscoco/RabbitMQ_ExchangeToExchangeDemo
 
-https://github.com/luiscoco/RabbitMQ_AlternateDemo
+**AlternateExchange**: https://github.com/luiscoco/RabbitMQ_AlternateDemo
+
+**PushPull**: https://github.com/luiscoco/RabbitMQ_PushPullDemo
+
+
 
 ## 1. Pull and run RabbitMQ Docker container
 
