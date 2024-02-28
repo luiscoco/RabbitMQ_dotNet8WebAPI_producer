@@ -225,4 +225,17 @@ namespace RabbitMQWebAPI_producer.Controllers
 
 ## 8. Running and Testing the application
 
+We build and run the application in Visual Studio 2022 and we send a message to RabbitMQ executing the POST request
+
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/077e895b-5815-41ca-a1cf-e770d844888e)
+
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/d0006fdc-4067-4584-bf6e-cf85bde36ade)
+
+Inside RabbitMQ we navigate to queues and we verify we create a new queue called **hello**
+
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/b8417783-4193-46ef-932b-f6cb1bbb49ed)
+
+We can get the messages inside the queue
+
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/27f825f8-cad5-4dca-950b-da8baae75be9)
 
