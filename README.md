@@ -1,4 +1,4 @@
-![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/3e18436c-74c9-4001-811d-6402465ccfb2)# How to create .NET 8 WebAPI integrating RabbitMQ (message producer). Default Exchange type.
+# How to create .NET8 WebAPI for sending messages to RabbitMQ message broker. Default Exchange Type.
 
 See also this link:
 
