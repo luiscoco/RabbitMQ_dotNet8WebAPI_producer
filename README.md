@@ -119,6 +119,8 @@ namespace RabbitMQWebAPI_producer
 
 For .NET 6 and above versions you can omit the Main and Startup 
 
+**program.cs**
+
 ```csharp
 using RabbitMQ.Client;
 using Microsoft.AspNetCore.Builder;
