@@ -334,6 +334,24 @@ When sending a msessage, if exchange name is left empty, it is handled by the "d
 
 https://github.com/luiscoco/RabbitMQ_ExchangeToExchangeDemo
 
+The setup in your diagram includes two exchanges and two queues. Let's examine the message flow:
+
+**Exchange 1**: Appears to be a **direct exchange** where messages are routed to the queues based on a matching routing key
+
+Message 1 with routing key abc goes directly to Queue 1, because there's a binding between Exchange 1 and Queue 1 with that routing key
+
+Message 2 with routing key xyz does not go to any queue from Exchange 1, because there's no binding with that key
+
+**Exchange 2**: Also appears to be a **direct exchange** based on the routing
+
+Message 3 with routing key 123 is not routed to any queue from Exchange 2 because there's no matching binding
+
+Message 2 (presumably the same message that was sent to Exchange 1) and Message 4 both have routing key xyz and are routed to Queue 2, because there's a binding between Exchange 2 and Queue 2 with the routing key xyz
+
+The dashed line from Message 2 indicates that it's being routed to Queue 2 via Exchange 2, not Exchange 1
+
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/0462b04e-921a-49e8-8f44-6ee6015c4828)
+
 ## 9.7. Alternate Exchange
 
 https://github.com/luiscoco/RabbitMQ_AlternateDemo
