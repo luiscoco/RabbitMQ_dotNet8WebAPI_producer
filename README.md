@@ -308,29 +308,40 @@ Like a postman that photocopies all the mails and puts one copy into each mailbo
 
 ![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/f7f941a1-6cb9-4bb0-b6ab-6bbb2bd9f06b)
 
+## 9.2. Direct Exchange
 
+Routes messages to the queues based on the "routing key" specified in binding definition.
 
+In order to send a message to a queue, routing key on the message and the routing key of the bound queue must be exactly the same.
 
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/c393c4ec-f886-4f0f-af05-4c8647caf2d8)
 
-## 9.2. 
+## 9.3. Topic Exchange
 
-## 9.3. 
 
 ## 9.4. 
 
+
 ## 9.5. 
+
 
 ## 9.6. 
 
+
 ## 9.7. 
+
 
 ## 9.8. 
 
+
 ## 9.9. 
+
 
 ## 9.10. 
 
+
 ## 9.11. 
+
 
 ## 9.12. 
 
