@@ -4,11 +4,6 @@ See also this link:
 
 RabbitMQ and Messaging Concepts (Udemy training): https://www.udemy.com/course/rabbitmq-and-messaging-concepts
 
-**RabbitMQ Exchange Types github repos**:
-
-**Fanout**: https://github.com/luiscoco/RabbitMQ_FanoutDemo
-
-**Direct**: https://github.com/luiscoco/RabbitMQ_DirectDemo
 
 **Topic**: https://github.com/luiscoco/RabbitMQ_TopicDemo
 
@@ -300,6 +295,8 @@ We can get the messages inside the queue
 
 ## 9.1. Fanout Exchange
 
+https://github.com/luiscoco/RabbitMQ_FanoutDemo
+
 The simplest exchange type, it sends all the messages it receives to all the queues that are bound to it.
 
 It simply ignores the routing information and does not perform any filtering.
@@ -309,6 +306,8 @@ Like a postman that photocopies all the mails and puts one copy into each mailbo
 ![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/f7f941a1-6cb9-4bb0-b6ab-6bbb2bd9f06b)
 
 ## 9.2. Direct Exchange
+
+https://github.com/luiscoco/RabbitMQ_DirectDemo
 
 Routes messages to the queues based on the "routing key" specified in binding definition.
 
