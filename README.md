@@ -1,14 +1,8 @@
-# How to create .NET 8 WebAPI integrating RabbitMQ (message producer). Default Exchange type.
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/3e18436c-74c9-4001-811d-6402465ccfb2)# How to create .NET 8 WebAPI integrating RabbitMQ (message producer). Default Exchange type.
 
 See also this link:
 
 RabbitMQ and Messaging Concepts (Udemy training): https://www.udemy.com/course/rabbitmq-and-messaging-concepts
-
-**RequestReply-QueueName**: https://github.com/luiscoco/RabbitMQ_RequestReply-QueueName-Demo
-
-**RequestReply**: https://github.com/luiscoco/RabbitMQ_RequestReplyDemo
-
-**RequestReply-MatchingCoding**: https://github.com/luiscoco/RabbitMQ_RequestReply-MatchingCoding-Demo
 
 ## What is RabbitMQ? 
 
@@ -412,9 +406,21 @@ Pull or push models can be used to distribute tasks among the workers
 
 ## 9.10. Publish - Subscribe
 
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/785e4377-7db4-456f-b140-3435acc139bc)
+
+Sample:
+
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/296e77b8-7212-44dd-93cb-3016e183829c)
 
 ## 9.11. Request - Reply
 
+https://github.com/luiscoco/RabbitMQ_RequestReply-QueueName-Demo
+
+https://github.com/luiscoco/RabbitMQ_RequestReplyDemo
+
+https://github.com/luiscoco/RabbitMQ_RequestReply-MatchingCoding-Demo
+
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/10463181-72a6-47d7-8321-0edc6ca63ef5)
 
 ## 9.12. Priority queues
 
@@ -425,4 +431,5 @@ All the messages or tasks may not have the same urgency level
 Some of them may be very urgent while others may be processed if there is no other message
 
 ![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/6a6d4324-08f3-4c9e-a69b-0c6bcc83ded2)
+
 
