@@ -312,6 +312,10 @@ Topic exchange will perform a wildcard match between the routing key and the rou
 
 https://github.com/luiscoco/RabbitMQ_HeadersDemo
 
+In RabbitMQ, headers exchanges will use the message header attributes for routing
+
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/2a32015c-474d-45b7-b869-a009eb59cfa6)
+
 ## 9.5. Default Exchange
 
 https://github.com/luiscoco/RabbitMQ_DefaultDemo
