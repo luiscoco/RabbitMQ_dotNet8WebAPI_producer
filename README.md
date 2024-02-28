@@ -1,4 +1,4 @@
-# How to create .NET 8 WebAPI integrating RabbitMQ (message producer)
+# How to create .NET 8 WebAPI integrating RabbitMQ (message producer). Default Exchange type.
 
 See also this link:
 
