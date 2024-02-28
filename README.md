@@ -413,4 +413,9 @@ Even though the pull mode is not recommended, it is the only solution when there
 
 https://github.com/luiscoco/RabbitMQ_PriorityQueues
 
-## 9.13. 
+All the messages or tasks may not have the same urgency level
+
+Some of them may be very urgent while others may be processed if there is no other message
+
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/6a6d4324-08f3-4c9e-a69b-0c6bcc83ded2)
+
