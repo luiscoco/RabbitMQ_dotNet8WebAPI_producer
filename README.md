@@ -390,8 +390,15 @@ This is the suggested way of getting messages from a queue
 
 **Pull** 
 
-![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/32f178e0-c687-46ce-a018-959ab4eb30a6)
+Consumer application does not subscribe to the queue
 
+But it constantly checks(pulls) the queue for new messages
+
+If there is a message available on the queue, it is manually fetched(pulled) by the consumer application
+
+Even though the pull mode is not recommended, it is the only solution when there is no live connection between message broker and consumer applications
+
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/32f178e0-c687-46ce-a018-959ab4eb30a6)
 
 ## 9.9. Work Queues
 
