@@ -1,6 +1,6 @@
 # How to create .NET 8 WebAPI integrating RabbitMQ (message producer)
 
-See also these links:
+See also this link:
 
 RabbitMQ and Messaging Concepts (Udemy training): https://www.udemy.com/course/rabbitmq-and-messaging-concepts
 
