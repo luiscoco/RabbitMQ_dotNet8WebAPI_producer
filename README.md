@@ -22,6 +22,13 @@ See also this github repos:
 
 **PushPull**: https://github.com/luiscoco/RabbitMQ_PushPullDemo
 
+**PriorityQueues**: https://github.com/luiscoco/RabbitMQ_PriorityQueues
+
+**RequestReply-QueueName**: https://github.com/luiscoco/RabbitMQ_RequestReply-QueueName-Demo
+
+**RequestReply**: https://github.com/luiscoco/RabbitMQ_RequestReplyDemo
+
+**RequestReply-MatchingCoding**: https://github.com/luiscoco/RabbitMQ_RequestReply-MatchingCoding-Demo
 
 ## What is RabbitMQ? 
 
@@ -301,59 +308,7 @@ Like a postman that photocopies all the mails and puts one copy into each mailbo
 
 ![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/f7f941a1-6cb9-4bb0-b6ab-6bbb2bd9f06b)
 
-**Producer**
 
-```csharp
-channel = conn.CreateModel();
-
-            channel.ExchangeDeclare(
-                "ex.fanout",
-                ExchangeType.Fanout,
-                true,
-                false,
-                null);
-
-            channel.QueueDeclare(
-                "my.queue1",
-                true,
-                false,
-                false,
-                null);
-
-            channel.QueueDeclare(
-                "my.queue2",
-                true,
-                false,
-                false,
-                null);
-
-            channel.QueueBind("my.queue1", "ex.fanout", "");
-            channel.QueueBind("my.queue2", "ex.fanout", "");
-
-            channel.BasicPublish(
-                "ex.fanout",
-                "",
-                null,
-                Encoding.UTF8.GetBytes("Message 1")
-                );
-
-            channel.BasicPublish(
-                "ex.fanout",
-                "",
-                null,
-                Encoding.UTF8.GetBytes("Message 2")
-                );
-
-            Console.WriteLine("Press a key to exit.");
-            Console.ReadKey();
-
-            channel.QueueDelete("my.queue1");
-            channel.QueueDelete("my.queue2");
-            channel.ExchangeDelete("ex.fanout");
-```
-
-
-**Consumer**
 
 
 
