@@ -406,6 +406,8 @@ Pull or push models can be used to distribute tasks among the workers
 
 ## 9.10. Publish - Subscribe
 
+https://github.com/luiscoco/RabbitMQ_PubSub
+
 ![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/785e4377-7db4-456f-b140-3435acc139bc)
 
 Sample:
