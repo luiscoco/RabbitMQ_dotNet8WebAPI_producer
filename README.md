@@ -4,7 +4,7 @@ See also these links:
 
 RabbitMQ and Messaging Concepts (Udemy training): https://www.udemy.com/course/rabbitmq-and-messaging-concepts
 
-See also this github repos:
+**RabbitMQ Exchange Types github repos**:
 
 **Fanout**: https://github.com/luiscoco/RabbitMQ_FanoutDemo
 
