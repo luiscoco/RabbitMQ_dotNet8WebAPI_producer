@@ -289,4 +289,44 @@ We can get the messages inside the queue
 
 ![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/63bbf713-d986-481d-98b9-4210e8938a6d)
 
+## 9. RabbitMQ Exchange Types
+
+## 9.1. Fanout Exchange
+
+The simplest exchange type, it sends all the messages it receives to all the queues that are bound to it.
+
+It simply ignores the routing information and does not perform any filtering.
+
+Like a postman that photocopies all the mails and puts one copy into each mailbox.
+
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/f7f941a1-6cb9-4bb0-b6ab-6bbb2bd9f06b)
+
+**Producer**
+
+
+**Consumer**
+
+
+
+## 9.2. 
+
+## 9.3. 
+
+## 9.4. 
+
+## 9.5. 
+
+## 9.6. 
+
+## 9.7. 
+
+## 9.8. 
+
+## 9.9. 
+
+## 9.10. 
+
+## 9.11. 
+
+## 9.12. 
 
