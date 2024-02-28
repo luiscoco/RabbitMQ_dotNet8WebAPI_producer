@@ -320,6 +320,16 @@ In RabbitMQ, headers exchanges will use the message header attributes for routin
 
 https://github.com/luiscoco/RabbitMQ_DefaultDemo
 
+When a new queue is created on a RabbitMQ system, it is implicitly bound to a system exchange called "default exchange", with a routing key which is the same as the queue name
+
+Default exchange has no name (empty string)
+
+The type of the default exchange is "direct"
+
+When sending a msessage, if exchange name is left empty, it is handled by the "default exchange"
+
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/bf251d33-6406-45f8-8aba-155898b27b97)
+
 ## 9.6. Exchange to Exchange
 
 https://github.com/luiscoco/RabbitMQ_ExchangeToExchangeDemo
