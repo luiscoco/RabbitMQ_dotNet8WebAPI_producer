@@ -117,6 +117,57 @@ namespace RabbitMQWebAPI_producer
 }
 ```
 
+For .NET 6 and above versions you can omit the Main and Startup 
+
+```csharp
+using RabbitMQ.Client;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
+
+namespace RabbitMQWebAPI_producer
+{
+    var builder = WebApplication.CreateBuilder(args);
+
+    // Add services to the container.
+    builder.Services.AddControllers();
+
+    var factory = new ConnectionFactory()
+    {
+        HostName = "localhost",
+        UserName = "guest",
+        Password = "guest"
+    };
+    builder.Services.AddSingleton(factory.CreateConnection());
+
+    builder.Services.AddSwaggerGen(c =>
+    {
+        c.SwaggerDoc("v1", new OpenApiInfo { Title = "RabbitMQWebAPI", Version = "v1" });
+    });
+
+    var app = builder.Build();
+
+    // Configure the HTTP request pipeline.
+    if (app.Environment.IsDevelopment())
+    {
+        app.UseDeveloperExceptionPage();
+        app.UseSwagger();
+        app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "RabbitMQWebAPI v1"));
+    }
+
+    app.UseRouting();
+
+    app.UseAuthorization();
+
+    app.MapControllers();
+
+    app.Run();
+}
+```
+
 ## 6. Creating the Models
 
 ```csharp
