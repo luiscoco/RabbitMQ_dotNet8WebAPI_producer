@@ -303,6 +303,55 @@ Like a postman that photocopies all the mails and puts one copy into each mailbo
 
 **Producer**
 
+```csharp
+channel = conn.CreateModel();
+
+            channel.ExchangeDeclare(
+                "ex.fanout",
+                ExchangeType.Fanout,
+                true,
+                false,
+                null);
+
+            channel.QueueDeclare(
+                "my.queue1",
+                true,
+                false,
+                false,
+                null);
+
+            channel.QueueDeclare(
+                "my.queue2",
+                true,
+                false,
+                false,
+                null);
+
+            channel.QueueBind("my.queue1", "ex.fanout", "");
+            channel.QueueBind("my.queue2", "ex.fanout", "");
+
+            channel.BasicPublish(
+                "ex.fanout",
+                "",
+                null,
+                Encoding.UTF8.GetBytes("Message 1")
+                );
+
+            channel.BasicPublish(
+                "ex.fanout",
+                "",
+                null,
+                Encoding.UTF8.GetBytes("Message 2")
+                );
+
+            Console.WriteLine("Press a key to exit.");
+            Console.ReadKey();
+
+            channel.QueueDelete("my.queue1");
+            channel.QueueDelete("my.queue2");
+            channel.ExchangeDelete("ex.fanout");
+```
+
 
 **Consumer**
 
