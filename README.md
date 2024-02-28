@@ -23,6 +23,32 @@ See also this github repos:
 **PushPull**: https://github.com/luiscoco/RabbitMQ_PushPullDemo
 
 
+## What is RabbitMQ? 
+
+It is a **message broker** (an intelligent message bus) that receives messages from producers and routes them to one or more consumers
+
+It is open source, written in Erlang
+
+It is simple and easy to use but powerful
+
+Its features can be extended with plugins
+
+Supports several messaging protocols
+
+AMQP 0-9-1
+
+STOMP 1.0 through 1.2
+
+MQTT 3.1.1
+
+AMQP 1.0
+
+Available on Windows, Linux and Mac
+
+There are also several ready to use Docker images on Docker hub
+
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/acc0cbc4-17fc-47f9-b89c-3620b60a2cdc)
+
 
 ## 1. Pull and run RabbitMQ Docker container
 
