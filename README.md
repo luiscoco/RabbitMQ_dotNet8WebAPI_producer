@@ -1,5 +1,11 @@
 # How to create .NET 8 WebAPI integrating RabbitMQ (message producer)
 
+See also these links:
+
+RabbitMQ and Messaging Concepts (Udemy training): https://www.udemy.com/course/rabbitmq-and-messaging-concepts
+
+
+
 ## 1. Pull and run RabbitMQ Docker container
 
 Install and run **Docker Desktop** on your machine, if you haven't already
