@@ -402,6 +402,13 @@ Even though the pull mode is not recommended, it is the only solution when there
 
 ## 9.9. Work Queues
 
+Work queues are used to distribute tasks among multiple workers
+
+Producers add tasks to a queue and these tasks are distributed to multiple worker applications
+
+Pull or push models can be used to distribute tasks among the workers
+
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/ac7c38af-650a-4dad-9766-a9055f54d0dc)
 
 ## 9.10. Publish - Subscribe
 
