@@ -237,5 +237,6 @@ Inside RabbitMQ we navigate to queues and we verify we create a new queue called
 
 We can get the messages inside the queue
 
-![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/27f825f8-cad5-4dca-950b-da8baae75be9)
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/63bbf713-d986-481d-98b9-4210e8938a6d)
+
 
