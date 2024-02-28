@@ -356,6 +356,24 @@ The dashed line from Message 2 indicates that it's being routed to Queue 2 via E
 
 https://github.com/luiscoco/RabbitMQ_AlternateDemo
 
+The concept of an **alternate exchange** is used when you want to handle messages that cannot be routed to any queue
+
+In this case, Exchange 1 is configured with an alternate exchange, Exchange 2
+
+If a message is published to Exchange 1 with a routing key for which there is no matching queue binding, the message will be forwarded to the alternate exchange
+
+There are two exchanges depicted in the diagram:
+
+**Exchange 1 (Direct)**: A direct exchange delivers messages to queues based on the message routing key
+
+A direct exchange will route messages to the queue whose binding key exactly matches the routing key of the message
+
+**Exchange 2 (Fanout)**: A fanout exchange routes messages to all of the queues bound to it, without considering the routing key
+
+It's like a broadcast; every queue gets a copy of the message
+
+![image](https://github.com/luiscoco/RabbitMQ_dotNet8WebAPI_producer/assets/32194879/466529d8-8689-4ef1-8422-5e9c33d0a321)
+
 ## 9.8. Push vs Pull
 
 https://github.com/luiscoco/RabbitMQ_PushPullDemo
